@@ -112,6 +112,39 @@ p {
     justify-content: center;
 }
 
+
+/*boxea*/
+.middle-content .boxes .box1{
+    background-color: teal;
+}
+.middle-content .boxes .box2{
+    background-color:gold;
+}
+.middle-content .boxes .box3{
+    background-color:cadetblue;
+}
+.middle-content .boxes .box4{
+    background-color:coral;
+}
+.middle-content .boxes .box5{
+    background-color:crimson;
+}
+.middle-content .boxes .box6{
+    background-color:forestgreen;
+}
+.middle-content .boxes .box7{
+    background-color:darkorchid;
+} 
+.middle-content .boxes .box8{
+    background-color:hotpink;
+}
+.middle-content .boxes .box9{
+    background-color:indigo;
+}
+.middle-content .boxes .box10{
+    background-color:dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -156,6 +189,7 @@ footer nav a {
 }
 
 
+
 .container h2{
    
     margin: 20px;
@@ -181,7 +215,7 @@ ul {
   li a {
     color: black;
     text-align: center;
-    padding: 1px 38px;
+    padding: 1px 30px;
     text-decoration: none;
   }
 
@@ -224,3 +258,31 @@ ul {
     padding: 10px;
 
   }
+
+  .item button:hover{
+
+    color: white;
+    background:black;
+  }
+
+  /*amnimation*/
+
+  @keyframes example {
+    0%   {background-color: teal;}
+    10%  {background-color: gold;}
+    20%  {background-color: cadetblue;}
+    30%  {background-color: coral;}
+    40%  {background-color: crimson;}
+    50%  {background-color: forestgreen;}
+    60%  {background-color: darkorchid;}
+    70%  {background-color: hotpink;}
+    80%  {background-color: indigo;}
+    90%  {background-color: dodgerblue;}
+  }
+
+  p, h2{
+    animation-name: example;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+  }
+  
