@@ -36,7 +36,6 @@ Edit this document to include your answers after each question. Make sure to lea
 
 semantic HTML introduces meaning to the web page rather than presentation.
 for example <h1> tag indicates this is a header. That tags goes from h1 to h6 and every h level it makes a smaller header.
-
 2.	Name two big differences between display: block; and display: inline;.
 
  display: inline; allows to set a width and height on the element.
@@ -49,8 +48,7 @@ display: inline; does not add a line-break after the element, so the element can
 4)content
 
 4.	While using flexbox, what axis does the following property work on: align-items: center?
-x-axis
-
+cross-axis 
 5.	Explain why git is valuable to a team of developers.
 
 it helps group of people code on one project all at once and when they share their code it will organize it and show every person what they coded and what they changed it also helps to find errors in parts of the code.
